@@ -1,0 +1,47 @@
+/* HeroBanner.css */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.hero-banner {
+  background-image: url("/src/assets/background-img.jpg"); /* Add your image path here */
+  background-size: 100vw 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  width: 100vw;
+  
+}
+
+.hero-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Rubik Maps', sans-serif;
+}
+
+.hero-banner p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-banner button {
+  background-color: #1565a3;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-banner button:hover {
+  background-color: #45a049;
+}
