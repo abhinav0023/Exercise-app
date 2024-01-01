@@ -1,8 +1,16 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import SearchExercises from '../components/SearchExercises'
+import Exercises from '../components/Exercises'
+
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Hero/>
+    <SearchExercises/>
+    <Exercises/>
+    </>
   )
 }
 
