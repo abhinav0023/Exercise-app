@@ -1,0 +1,74 @@
+/* Navbar.css */
+
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px 0;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+}
+
+.logo {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.logo img {
+  height: 60px;
+  background-color: aliceblue;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* Styles for when a link is hovered */
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-link {
+    margin: 10px 0;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
